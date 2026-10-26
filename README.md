@@ -134,12 +134,6 @@ screenshots/  App screenshots
   exactly the same moment could collide (expected to be rare).
 - GPU temperature is unavailable while the dGPU is asleep.
 
-## Roadmap
-
-- [ ] Watchdog test on real hardware (see above)
-- [ ] Separate CPU / GPU fan curves
-- [ ] Power-mode switching (Quiet / Balanced / Performance) from the app
-- [ ] Rename the settings folder (`FanBar` → `LOQFanControl`), signed release binaries
 
 ## Contributing
 
