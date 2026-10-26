@@ -16,6 +16,10 @@ with a custom fan curve, gradual ramping and multiple fail-safes. Inspired by
 > RTX 4050, macOS 15.x, OpenCore). Other models or BIOS versions may use different EC
 > registers. **Use at your own risk — you are responsible for your hardware.**
 
+<p align="center">
+  <img src="screenshots/dashboard.png" width="760" alt="LOQ Fan Control dashboard with fan curve editor">
+</p>
+
 ## Features
 
 - Live **CPU / GPU fan RPM**, **CPU / GPU temperature** and **power mode** in a
@@ -117,6 +121,7 @@ method uses. The interface between kext and app is IORegistry properties
 kext/    LOQFanMon.kext source (IOService, EC reader + command interface)
 app/     SwiftUI app (dashboard, curve editor, menu bar), fan-curve engine
 docs/    How-it-works (EC register tables and command interface)
+screenshots/  App screenshots
 ```
 
 ## Known limitations
